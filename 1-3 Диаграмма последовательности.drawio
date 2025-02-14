@@ -77,10 +77,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iogM2vqVbUJF9Zq4kl13" name="Детализированная диаграмма">
-    <mxGraphModel dx="494" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bAYmm7iJJdCft1TDemyJ-48" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="240" width="300" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="bAYmm7iJJdCft1TDemyJ-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="679.5" y="470" as="sourcePoint" />
@@ -304,22 +307,35 @@
             <mxPoint x="-47" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYmm7iJJdCft1TDemyJ-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="790" y="240" width="320" height="130" as="geometry" />
+        <mxCell id="bAYmm7iJJdCft1TDemyJ-49" value="Выполнять пока есть вакансии" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="855" y="240" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bAYmm7iJJdCft1TDemyJ-41" value="Loop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="785" y="240" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYmm7iJJdCft1TDemyJ-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bAYmm7iJJdCft1TDemyJ-41">
+        <mxCell id="bAYmm7iJJdCft1TDemyJ-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="270" as="sourcePoint" />
-            <mxPoint x="790" y="270" as="targetPoint" />
+            <mxPoint x="855" y="300" as="sourcePoint" />
+            <mxPoint x="1030" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYmm7iJJdCft1TDemyJ-45" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYmm7iJJdCft1TDemyJ-41" target="bAYmm7iJJdCft1TDemyJ-41">
+        <mxCell id="bAYmm7iJJdCft1TDemyJ-51" value="Создать" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bAYmm7iJJdCft1TDemyJ-50">
+          <mxGeometry x="-0.2477" y="-2" relative="1" as="geometry">
+            <mxPoint x="19" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bAYmm7iJJdCft1TDemyJ-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="830" y="280" as="sourcePoint" />
-            <mxPoint x="820" y="270" as="targetPoint" />
+            <mxPoint x="855" y="340" as="sourcePoint" />
+            <mxPoint x="1210" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bAYmm7iJJdCft1TDemyJ-53" value="Добавить" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bAYmm7iJJdCft1TDemyJ-52">
+          <mxGeometry x="-0.2477" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bAYmm7iJJdCft1TDemyJ-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="855" y="230" as="sourcePoint" />
+            <mxPoint x="1210" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
