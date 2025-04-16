@@ -1,9 +1,91 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Страница — 1" id="-So7wkx7S8JTpMgviirU">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-2" value="База данных клиентов" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZEn2d_MBCCKqTaquhmsj-4" target="ZEn2d_MBCCKqTaquhmsj-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-12" value="API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZEn2d_MBCCKqTaquhmsj-11">
+          <mxGeometry x="0.1183" y="-2" relative="1" as="geometry">
+            <mxPoint x="-22" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-4" value="Web-сервис" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZEn2d_MBCCKqTaquhmsj-6" target="ZEn2d_MBCCKqTaquhmsj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-14" value="Профиль&amp;nbsp;&lt;div&gt;клиента&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZEn2d_MBCCKqTaquhmsj-13">
+          <mxGeometry x="0.03" y="3" relative="1" as="geometry">
+            <mxPoint x="2" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZEn2d_MBCCKqTaquhmsj-6" target="ZEn2d_MBCCKqTaquhmsj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-21" value="Передача данных&lt;div&gt;&amp;nbsp;об успешности&amp;nbsp;&lt;/div&gt;&lt;div&gt;предложений&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZEn2d_MBCCKqTaquhmsj-20">
+          <mxGeometry x="0.311" y="3" relative="1" as="geometry">
+            <mxPoint y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZEn2d_MBCCKqTaquhmsj-6" target="ZEn2d_MBCCKqTaquhmsj-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="167" />
+              <mxPoint x="740" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-6" value="Сервис генерации предложений" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-7" value="Сервис ИИ&amp;nbsp;&lt;div&gt;(LLM-сервис)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#00FFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZEn2d_MBCCKqTaquhmsj-8" target="ZEn2d_MBCCKqTaquhmsj-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-8" value="Интеграционный модуль" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-9" value="Каталог&lt;div&gt;продуктов&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="900" y="310" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-10" value="BI/Аналитика" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZEn2d_MBCCKqTaquhmsj-6" target="ZEn2d_MBCCKqTaquhmsj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-17" value="Подбор и фильтрация&amp;nbsp;&lt;div&gt;продуктов&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZEn2d_MBCCKqTaquhmsj-16">
+          <mxGeometry x="-0.2353" y="-3" relative="1" as="geometry">
+            <mxPoint x="68" y="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=openThin;startFill=0;" edge="1" parent="1" source="ZEn2d_MBCCKqTaquhmsj-6" target="ZEn2d_MBCCKqTaquhmsj-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="10" />
+              <mxPoint x="455" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-19" value="Запрос данных&amp;nbsp;&lt;div&gt;профиля клиента&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZEn2d_MBCCKqTaquhmsj-18">
+          <mxGeometry x="0.1048" relative="1" as="geometry">
+            <mxPoint x="-110" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEn2d_MBCCKqTaquhmsj-23" value="&lt;b&gt;CRM/внешие базы&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
